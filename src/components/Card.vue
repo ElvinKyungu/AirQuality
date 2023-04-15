@@ -7,7 +7,7 @@ export default {
     };
   },
   mounted() {
-    fetch('')
+    fetch("http://api.airvisual.com/v2/nearest_city?key=3ec25430-b9b1-47cb-b1ec-8cd7ab1f0415")
       .then(response => response.json())
       .then(data => {
         this.airQualityData.push({

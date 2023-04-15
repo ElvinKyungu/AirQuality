@@ -13,7 +13,7 @@ npm run dev
 
 ## Technologies
 
-```python
+```
 Vue js
 CSS
 ```
